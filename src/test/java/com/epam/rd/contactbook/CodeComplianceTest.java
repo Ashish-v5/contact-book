@@ -104,8 +104,6 @@ class CodeComplianceTest {
                 c -> c
         ));
 
-        System.out.println(nonAnonClasses);
-
         assertEquals(4, nonAnonClasses.size(),
                 "You must not add any more non-anonymous classes besides Email, Social and NameContactInfo.");
 

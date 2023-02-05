@@ -227,7 +227,7 @@ public class Contact {
         Social[] copyArray = new Social[socialMediaCount];
         System.arraycopy(socialMediaArray, 0, copyArray, 0, socialMediaArray.length);
 
-        copyArray[socialMediaCount] = social;
+        copyArray[socialMediaCount-1] = social;
         socialMediaArray = new Social[socialMediaCount];
 
         System.arraycopy(copyArray, 0, socialMediaArray, 0, copyArray.length);
